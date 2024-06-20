@@ -1,0 +1,25 @@
+form{
+    width: 60%;
+    height: 280px;
+    border: solid 1px;
+    padding: 10px;
+    margin-left: 15%;
+}
+input{
+    padding: 12px 5px;
+    width: 60%;
+    margin: 2% 0;
+    border-radius: 5px;
+    border: 1px solid rgb(82, 75, 75);
+}
+button{
+    padding: 10px 5px;
+    width: 120px;
+    margin-top: 2%;
+    margin-left: 90%;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(15, 97, 15);
+    color: #ffffff;
+
+}
