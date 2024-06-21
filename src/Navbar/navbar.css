@@ -1,0 +1,15 @@
+.home{
+    margin-right: 10px; /* Smaller margin for the Home link */
+}
+.users {
+    margin-right: 40px; /* Larger margin for the Users link */
+}
+
+/* Remove the right margin from the last item */
+.login-nav {
+    margin-right: 0;
+    text-decoration: none;
+}
+.navbar Link{
+    text-decoration: none;
+}

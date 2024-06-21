@@ -1,22 +1,17 @@
-import { useState } from 'react';
-// import {Modal} from 'react-modal'
+import { Link } from 'react-router-dom';
 import './navbar.css'; 
-import Login from '../Login';
+// import Login from '../Login';
+// import { useState } from 'react';
+// import {Modal} from 'react-modal'
 // import { useGetUSers } from '../Users/hooks/useGetUsers';
 
-
-const Navbar = () => {
-    const [isLoginFormOpen, setIsLoginFormOpen] = useState(false);
-
-    const toggleLoginForm = () => {
-        setIsLoginFormOpen(!isLoginFormOpen);
-    };
-    
+const Navbar = () => {    
     return (
         <nav className="navbar">
+            {/* <Link to="/home" className="home">Home</Link>
+            <Link to="users" className="users">Users</Link> */}
             {/* Other navbar items */}
-            <button onClick={toggleLoginForm}>Login</button>
-            {isLoginFormOpen && <Login />}
+            <button type='submit'><Link to="/login" className='login-nav'>Login</Link></button>
         </nav>
     );
 };
